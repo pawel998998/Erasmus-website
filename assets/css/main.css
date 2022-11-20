@@ -2059,6 +2059,7 @@ input, select, textarea {
 	}
 
 		#header .top {
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -2069,6 +2070,8 @@ input, select, textarea {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
+			background-color: rgb(129, 128, 128);
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 			flex-shrink: 0;
 			padding: 1.5em 0 0.75em 0;
 		}
@@ -2248,7 +2251,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/Erasmus_Logo.png");
+
 			}
 
 			#main > section.two {
@@ -2631,4 +2635,9 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+	.wysokosc_wypelniacz
+	{
+		height: 30vh;
 	}
